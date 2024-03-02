@@ -36,8 +36,8 @@ a {
     padding: 12px 24px;
     color: #fff;
     text-align: center;
+    line-height: 28px;
     font-weight: 600;
-    line-height: 1.75;
     background: var(--head-color);
 }
 
@@ -262,4 +262,109 @@ a {
     font-size: 4.4rem;
     font-weight: 700;
     line-height: 1.2;
+}
+
+/* Popular */
+.popular {
+    padding: 200px 0;
+}
+
+.popular .heading {
+    display: flex;
+    align-items: center;
+}
+
+.popular .info .title {
+    color: var(--head-color);
+    font-family: var(--font-heading);
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+}
+
+.popular .info .desc {
+    margin-top: 16px;
+    color: var(--sub-color);
+    font-size: 1.8rem;
+    line-height: 1.67;
+    width: 458px;
+}
+
+.popular .heading .icon-wrap {
+    margin-left: auto;
+}
+
+.popular .body {
+    margin-top: 55px;
+    display: flex;
+    gap: 30px;
+}
+
+.popular .item {
+    flex: 1;
+}
+
+.popular .item .thumb {
+    width: 100%;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.popular .item-body {
+    padding: 16px 22px 22px;
+}
+
+.popular .item-body .sub-heading {
+    display: flex;
+    align-items: center;
+}
+
+.popular .item-body .sub-title {
+    margin-right: auto;
+    color: var(--head-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.67;
+}
+
+.popular .item-body .rate-point {
+    color: var(--primary-color);
+}
+
+.popular .item-body .desc {
+    margin-top: 6px;
+    color: var(--sub-color);
+    font-size: 1.4rem;
+    line-height: 1.85;
+    font-weight: 400;
+}
+
+.popular .item-body .cta {
+    display: flex;
+    align-items: center;
+}
+
+.popular .item-body .money {
+    color: var(--head-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+}
+
+.popular .item-body .book-btn {
+    margin-left: auto;
+    border-radius: 25px;
+    background: var(--head-color);
+}
+
+.popular .item-body .hover-btn {
+    background: var(--primary-color);
+}
+
+/* Feedback */
+.feedback {
+    height: 380px;
+    background: #2e2100;
 }
