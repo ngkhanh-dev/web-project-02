@@ -368,3 +368,74 @@ a {
     height: 380px;
     background: #2e2100;
 }
+
+.feedback .content-block {
+    padding: 96px 0;
+    display: flex;
+}
+
+.feedback .user {
+    width: 159px;
+}
+
+.feedback .user-ava {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.feedback .user-name {
+    margin-top: 18px;
+    color: #f7f7f7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.41;
+}
+
+.feedback .user-course {
+    margin-top: 4px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    line-height: 1.85;
+}
+
+.feedback .dots {
+    display: flex;
+    margin-top: 28px;
+}
+
+.feedback .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+}
+
+.feedback .dot:nth-child(2) {
+    background: var(--primary-color);
+}
+
+.feedback .dot + .dot {
+    margin-left: 6px;
+}
+
+.feedback .user-feedback {
+    width: 770px;
+    margin-left: auto;
+    position: relative;
+}
+
+.feedback .user-feedback .vector {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.feedback .user-feedback blockquote {
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    line-height: 1.53;
+    padding: 28px 0 0 30px;
+}
